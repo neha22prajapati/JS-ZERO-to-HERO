@@ -6,12 +6,15 @@
   </head>
   <body>
     <div>
+      <h1>Search by Name</h1>
       <input
         type="text"
         placeholder="Find by Name"
         value=""
         id="filterbyPerson"
+        onkeyup="filterPersonData()"
       />
+      <p id="error"></p>
       <ul></ul>
     </div>
     <script
