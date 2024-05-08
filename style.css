@@ -3,9 +3,25 @@ div {
   margin: 0 auto;
 }
 
+h1 {
+  text-align: center;
+  margin-top: 60px;
+  color: blueviolet;
+  font-family: sans-serif;
+}
+
+p {
+  color: red;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
 ul {
   box-shadow: 1px 1px 5px 1px #ccc;
   padding: 0;
+  height: auto;
+  overflow: auto;
 }
 
 li {
