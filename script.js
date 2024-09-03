@@ -10,7 +10,6 @@ const getData = async () => {
 
 const displayData = async () => {
   const payload = await getData();
-  console.log(payload);
   displayList = payload
     .map((object) => {
       const { firstName, lastName } = object;
